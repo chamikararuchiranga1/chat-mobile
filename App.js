@@ -9,8 +9,8 @@ function App() {
   return (
     <View style={styles.container}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <Home/>
-      {/* <Product/> */}
+      {/* <Home/> */}
+      <Product/>
     </View>
   );
 }
